@@ -1,5 +1,8 @@
 package ar.edu.utn.frba.dds.macowins;
 
+import estados.*;
+import modelo.*;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -35,18 +38,15 @@ public class PrendaTest {
   }
 
   private Prenda pantalonEnPromocion(int precioBase, int descuento) {
-    // TODO completar
-    return null;
+    return new Prenda(Tipo.PANTALON, precioBase, new Promocion(descuento));
   }
 
 
   private Prenda camisaNueva(double precioBase) {
-    // TODO completar
-    return null;
+    return new Prenda(Tipo.CAMISA, precioBase, new Nueva());
   }
 
   private Prenda sacoEnLiquidacion(double precioBase) {
-    // TODO completar
-    return null;
+    return new Prenda(Tipo.SACO, precioBase, new Liquidacion());
   }
 }
