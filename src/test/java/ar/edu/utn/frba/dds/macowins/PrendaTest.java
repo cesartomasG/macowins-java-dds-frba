@@ -1,7 +1,12 @@
 package ar.edu.utn.frba.dds.macowins;
 
-import estados.*;
-import modelo.*;
+import ar.edu.utn.frba.dds.macowins.estados.Nueva;
+import ar.edu.utn.frba.dds.macowins.estados.Liquidacion;
+import ar.edu.utn.frba.dds.macowins.estados.Promocion;
+
+
+import ar.edu.utn.frba.dds.macowins.modelo.Prenda;
+import ar.edu.utn.frba.dds.macowins.modelo.Tipo;
 
 import org.junit.jupiter.api.Test;
 
