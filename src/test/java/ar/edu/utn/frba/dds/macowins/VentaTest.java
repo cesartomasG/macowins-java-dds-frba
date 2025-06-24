@@ -12,7 +12,7 @@ import ar.edu.utn.frba.dds.macowins.estados.Liquidacion;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class VentaTest {
+public class  VentaTest {
 
   @Test
   public void ventaEnEfectivoCalculaBienElImporte() {
