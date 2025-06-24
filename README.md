@@ -1,3 +1,4 @@
+![Build](https://github.com/cesartomasG/macowins-java-dds-frba/actions/workflows/maven.yml/badge.svg)
 # Macowins - Java
 
 Trabajo práctico realizado para la materia **Diseño de Sistemas** en **UTN FRBA**, 2025.
